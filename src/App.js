@@ -13,30 +13,31 @@ import "./App.css";
 import CreateStudent from "./components/create-student.component";
 import EditStudent from "./components/edit-student.component";
 import StudentList from "./components/student-list.component";
+import Index from "./components/index.component";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <header className="App-header">
-          <Navbar bg="dark" variant="dark">
+          <Navbar id="navbar" bg="info" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand>
-                <Link to={"/create-student"} className="nav-link">
-                  App React MERN Stack
+                <Link to={"/"} className="nav-link">
+                  POWER BANK
                 </Link>
               </Navbar.Brand>
 
               <Nav className="justify-content-end">
                 <Nav>
-                  <Link to={"/create-student"} className="nav-link">
-                    Crear Estudiante
+                  <Link to={"/create-user"} className="nav-link">
+                    Crear Usuario
                   </Link>
                 </Nav>
 
                 <Nav>
-                  <Link to={"/student-list"} className="nav-link">
-                    Listar Estudiantes
+                  <Link to={"/user-list"} className="nav-link">
+                    Listar Usuarios
                   </Link>
                 </Nav>
               </Nav>
@@ -52,21 +53,21 @@ function App() {
                   <Route
                     exact
                     path="/"
+                    component={(props) => <Index {...props} />}
+                  />
+                  <Route
+                    exact
+                    path="/create-user"
                     component={(props) => <CreateStudent {...props} />}
                   />
                   <Route
                     exact
-                    path="/create-student"
-                    component={(props) => <CreateStudent {...props} />}
-                  />
-                  <Route
-                    exact
-                    path="/edit-student/:id"
+                    path="/edit-user/:id"
                     component={(props) => <EditStudent {...props} />}
                   />
                   <Route
                     exact
-                    path="/student-list"
+                    path="/user-list"
                     component={(props) => <StudentList {...props} />}
                   />
                 </Switch>
