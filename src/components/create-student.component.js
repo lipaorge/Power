@@ -65,7 +65,7 @@ export default class CreatStudent extends Component {
                        
                     </Form.Group>
                     <Form.Group controlId="Name">
-                        <Form.Label>Codigo</Form.Label>
+                        <Form.Label>Identificación</Form.Label>
                         <Form.Control
                             type="text"
                             value={this.setState.rollno}
@@ -79,7 +79,7 @@ export default class CreatStudent extends Component {
                         type="submit"
                         className="mt-4"
                     >
-                        Crear Estudiante
+                        Crear Usuario
                     </Button>
                 </Form>
             </div>

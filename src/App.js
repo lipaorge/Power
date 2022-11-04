@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Router>
         <header className="App-header">
-          <Navbar fixed="top" id="navbar" bg="info" expand="lg" variant="dark">
+          <Navbar id="navbar" bg="info" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand>
                 <Link to={"/"} className="nav-link">
@@ -30,13 +30,13 @@ function App() {
 
               <Nav className="justify-content-end">
                 <Nav>
-                  <Link to={"/create-student"} className="nav-link">
+                  <Link to={"/create-user"} className="nav-link">
                     Crear Usuario
                   </Link>
                 </Nav>
 
                 <Nav>
-                  <Link to={"/student-list"} className="nav-link">
+                  <Link to={"/user-list"} className="nav-link">
                     Listar Usuarios
                   </Link>
                 </Nav>
@@ -57,17 +57,17 @@ function App() {
                   />
                   <Route
                     exact
-                    path="/create-student"
+                    path="/create-user"
                     component={(props) => <CreateStudent {...props} />}
                   />
                   <Route
                     exact
-                    path="/edit-student/:id"
+                    path="/edit-user/:id"
                     component={(props) => <EditStudent {...props} />}
                   />
                   <Route
                     exact
-                    path="/student-list"
+                    path="/user-list"
                     component={(props) => <StudentList {...props} />}
                   />
                 </Switch>
