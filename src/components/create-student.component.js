@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-import { Button, Form } from "react-bootstrap";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
-export default class CreatStudent extends Component {
+
+export default class CreateStudent extends Component {
     constructor(props) {
         super(props);
         this.onChangeStudentName = this.onChangeStudentName.bind(this);
         this.onChangeStudentEmail = this.onChangeStudentEmail.bind(this);
-        this.onChangeStufentRollno = this.onChangeStufentRollno.bind(this);
+        this.onChangeStudentRollno = this.onChangeStudentRollno.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
 
         this.state = {
@@ -25,20 +27,20 @@ export default class CreatStudent extends Component {
         this.setState({ email: e.target.value });
     }
 
-    onChangeStufentRollno(e) {
+    onChangeStudentRollno(e) {
         this.setState({ rollno: e.target.value });
     }
     onSubmit(e) {
         e.preventDefault();
 
-        const studendObject = {
+        const studentObject = {
             name: this.state.name,
             email: this.state.email,
             rollno: this.state.rollno,
         };
 
         axios
-            .post("htpp://localhost:4000/student/createStudent", studendObject)
+            .post("htpp://localhost:4000/students/create-student", studentObject)
             .then((res) => console.log(res.data));
         this.setState({ name: "", email: "", rollno: "" });
     }
@@ -46,12 +48,12 @@ export default class CreatStudent extends Component {
     render() {
         return (
             <div className="form-wrapper">
-                <Form onSubmit={this.onSubmit}>
+                <Form >
                     <Form.Group controlId="Name">
                         <Form.Label>Nombre</Form.Label>
                         <Form.Control
                             type="text"
-                            value={this.setState.name}
+                            value={this.State.name}
                             onChange={this.onChangeStudentName}
                         />
                     </Form.Group>
@@ -59,7 +61,7 @@ export default class CreatStudent extends Component {
                         <Form.Label>Correo Electronico</Form.Label>
                         <Form.Control 
                         type="email" 
-                        value={this.setState.email}
+                        value={this.State.email}
                         onChange={this.onChangeStudentEmail}
                         />
                        
@@ -68,7 +70,7 @@ export default class CreatStudent extends Component {
                         <Form.Label>Identificación</Form.Label>
                         <Form.Control
                             type="text"
-                            value={this.setState.rollno}
+                            value={this.State.rollno}
                             onChange={this.onChangeStudentRollno}
                         />
                     </Form.Group>
