@@ -30,13 +30,13 @@ function App() {
 
               <Nav className="justify-content-end">
                 <Nav>
-                  <Link to={"/create-user"} className="nav-link">
+                  <Link to={"/create-student"} className="nav-link">
                     Crear Usuario
                   </Link>
                 </Nav>
 
                 <Nav>
-                  <Link to={"/user-list"} className="nav-link">
+                  <Link to={"/student-list"} className="nav-link">
                     Listar Usuarios
                   </Link>
                 </Nav>
@@ -57,17 +57,17 @@ function App() {
                   />
                   <Route
                     exact
-                    path="/create-user"
+                    path="/create-student"
                     component={(props) => <CreateStudent {...props} />}
                   />
                   <Route
                     exact
-                    path="/edit-user/:id"
+                    path="/edit-student/:id"
                     component={(props) => <EditStudent {...props} />}
                   />
                   <Route
                     exact
-                    path="/user-list"
+                    path="/student-list"
                     component={(props) => <StudentList {...props} />}
                   />
                 </Switch>
