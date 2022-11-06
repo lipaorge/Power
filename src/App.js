@@ -10,9 +10,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
 
-import CreateStudent from "./components/create-student.component";
-import EditStudent from "./components/edit-student.component";
-import StudentList from "./components/student-list.component";
+import CreatePowerbank from "./components/create-powerbank.component";
+import EditPowerbank from "./components/edit-powerbank.component";
+import PowerbankList from "./components/powerbank-list.component";
 import Index from "./components/index.component";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Navbar id="navbar" bg="info" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand>
-                <Link to={"/"} className="nav-link">
+                <Link to={"/"}  className="nav-link">
                   POWER BANK
                 </Link>
               </Navbar.Brand>
@@ -57,6 +57,21 @@ function App() {
                   />
                   <Route
                     exact
+<<<<<<< HEAD
+                    path="/create-user"
+                    component={(props) => <CreatePowerbank {...props} />}
+                  />
+                  <Route
+                    exact
+                    path="/edit-user/:id"
+                    // eslint-disable-next-line react/jsx-no-undef
+                    component={(props) => <EditPowerbank {...props} />}
+                  />
+                  <Route
+                    exact
+                    path="/user-list"
+                    component={(props) => <powerBankList {...props} />}
+=======
                     path="/create-student"
                     component={(props) => <CreateStudent {...props} />}
                   />
@@ -69,6 +84,7 @@ function App() {
                     exact
                     path="/student-list"
                     component={(props) => <StudentList {...props} />}
+>>>>>>> b68bd79d75777a77680916b020eca269178381bc
                   />
                 </Switch>
               </div>
