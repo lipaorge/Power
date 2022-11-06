@@ -1,19 +1,36 @@
+//#Name.form-control,#Email.form-control,div.row{
+  background: url(../src/Recursos/tono.bmp) no-repeat center;
+}
+.nav-link,.form-wrapper{
+  font-style: italic;
+  
+}
+
 .wrapper {
   padding-top: 30px;
+  background: url(../src/Recursos/fondo.jpg) no-repeat center;
+  
+}
+.container{
+  background: url(../src/Recursos/tono.bmp) no-repeat center;
+}
+body h3,body{
+  margin-bottom: 25px;
+ 
 }
 
-body h3 {
-  margin-bottom: 25px;
-}
 
 .navbar-brand a {
-  color: #ffffff;
+  color: #a83b3b;
 }
 
+
 .form-wrapper,
+
 .table-wrapper {
   max-width: 500px;
   margin: 0 auto;
+  color:#4c945e9c
 }
 
 .table-wrapper {
@@ -25,8 +42,8 @@ body h3 {
   font-size: 0.875rem;
   line-height: normal;
   border-radius: 0.2rem;
-  color: #fff;
-  background-color: #28a745;
+  color: rgb(3, 3, 3);
+  background-color: #e9ec0c;
   border-color: #28a745;
   margin-right: 10px;
   position: relative;
@@ -35,7 +52,8 @@ body h3 {
 
 .edit-link:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #e7eb29;
 }
-
-
+.navbar-dark{
+  color: #ec0c0c;
+}

@@ -10,9 +10,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
 
-import CreateStudent from "./components/create-student.component";
-import EditStudent from "./components/edit-student.component";
-import StudentList from "./components/student-list.component";
+import CreatePowerbank from "./components/create-powerbank.component";
+import EditPowerbank from "./components/edit-powerbank.component";
+import PowerbankList from "./components/powerbank-list.component";
 import Index from "./components/index.component";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Navbar id="navbar" bg="info" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand>
-                <Link to={"/"} className="nav-link">
+                <Link to={"/"}  className="nav-link">
                   POWER BANK
                 </Link>
               </Navbar.Brand>
@@ -58,17 +58,18 @@ function App() {
                   <Route
                     exact
                     path="/create-user"
-                    component={(props) => <CreateStudent {...props} />}
+                    component={(props) => <CreatePowerbank {...props} />}
                   />
                   <Route
                     exact
                     path="/edit-user/:id"
-                    component={(props) => <EditStudent {...props} />}
+                    // eslint-disable-next-line react/jsx-no-undef
+                    component={(props) => <EditPowerbank {...props} />}
                   />
                   <Route
                     exact
                     path="/user-list"
-                    component={(props) => <StudentList {...props} />}
+                    component={(props) => <powerBankList {...props} />}
                   />
                 </Switch>
               </div>
