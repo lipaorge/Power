@@ -4,7 +4,7 @@ export default class Index extends Component {
     render() {
         return(
             <h1  style={{marginTop:200}}>
-            Página de Incio
+            Página de Inicio
         </h1>
           )
     }

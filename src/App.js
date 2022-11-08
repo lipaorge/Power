@@ -57,7 +57,7 @@ function App() {
                   />
                   <Route
                     exact
-                    path="/create-user"
+                    path="/create-powerbank"
                     component={(props) => <CreatePowerbank {...props} />}
                   />
                   <Route
@@ -68,7 +68,7 @@ function App() {
                   />
                   <Route
                     exact
-                    path="/user-list"
+                    path="/powerbank-list"
                     component={(props) => <powerBankList {...props} />}
                   />
                 </Switch>
