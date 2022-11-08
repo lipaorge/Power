@@ -39,7 +39,7 @@ export default class CreatePowerbank extends Component {
         };
 
         axios
-            .post("htpp://localhost:4000/student/createpowerbank", powerbankObject)
+            .post("http://localhost:3000/create-powerbank", powerbankObject)
             .then((res) => console.log(res.data));
         this.setState({ name: "", email: "", rollno: "" });
     }
@@ -48,15 +48,15 @@ export default class CreatePowerbank extends Component {
         return (
             <div className="form-wrapper">
                 <Form >
-                    <Form.Group controlId="Name">
+                <Form.Group controlId="nombre">
                         <Form.Label>Nombre</Form.Label>
                         <Form.Control
                             type="text"
-                            value={this.setState.name}
+                            value={this.setState.nombre}
                             onChange={this.onChangepowerbankName}
                         />
                     </Form.Group>
-                    <Form.Group controlId="Email">
+                    <Form.Group controlId="email">
                         <Form.Label>Correo Electronico</Form.Label>
                         <Form.Control 
                         type="email" 
@@ -65,7 +65,7 @@ export default class CreatePowerbank extends Component {
                         />
                        
                     </Form.Group>
-                    <Form.Group controlId="Name">
+                    <Form.Group controlId="rollno">
                         <Form.Label>Identificación</Form.Label>
                         <Form.Control
                             type="text"

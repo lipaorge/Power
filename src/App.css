@@ -1,4 +1,4 @@
-//#Name.form-control,#Email.form-control,div.row{
+#Name.form-control,#Email.form-control,div.row{
   background: url(../src/Recursos/tono.bmp) no-repeat center;
 }
 .nav-link,.form-wrapper{

@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 
 export default class PowerbankList extends Component {
   render() {
-    return (
-      <div>Crear Usuarios</div>
+    return(
+      <h1  style={{marginTop:200}}>
+      Página de listar usuario
+  </h1>
     )
   }
 }
