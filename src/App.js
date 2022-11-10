@@ -34,13 +34,13 @@ function App() {
 
               <Nav className="justify-content-end">
                 <Nav>
-                  <Link to={"/create-user"} className="nav-link">
+                  <Link to={"/create-powerbank"} className="nav-link">
                     Crear Usuario
                   </Link>
                 </Nav>
 
                 <Nav>
-                  <Link to={"/user-list"} className="nav-link">
+                  <Link to={"/powerbank-list"} className="nav-link">
                     Listar Usuarios
                   </Link>
                 </Nav>
@@ -61,7 +61,7 @@ function App() {
                   />
                   <Route
                     exact
-                    path="/create-user"
+                    path="/create-powerbank"
                     component={(props) => <CreatePowerbank {...props} />}
                   />
                   <Route
@@ -72,8 +72,8 @@ function App() {
                   />
                   <Route
                     exact
-                    path="/user-list"
-                    component={(props) => <PowerbankList {...props} />}
+                    path="/powerbank-list"
+                    component={(props) => <powerBankList {...props} />}
                   />
                 </Switch>
               </div>
