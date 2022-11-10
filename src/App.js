@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
@@ -14,13 +13,18 @@ import CreatePowerbank from "./components/create-powerbank.component";
 import EditPowerbank from "./components/edit-powerbank.component";
 import PowerbankList from "./components/powerbank-list.component";
 import Index from "./components/index.component";
+import BootstrapCarousel from "./components/BootstrapCarousel";
 
 function App() {
   return (
+    
     <div className="App">
+      
+       
       <Router>
+      
         <header className="App-header">
-          <Navbar id="navbar" bg="info" expand="lg" variant="dark">
+          <Navbar id="navbar" bg="dark" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand>
                 <Link to={"/"}  className="nav-link">
@@ -76,9 +80,19 @@ function App() {
             </Col>
           </Row>
         </Container>
+        
       </Router>
+      <div>
+      <Container>
+      <BootstrapCarousel /> 
+      </Container>
+      </div>
+     
+      
     </div>
+    
   );
 }
 
 export default App;
+

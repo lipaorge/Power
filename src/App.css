@@ -1,18 +1,15 @@
-#Name.form-control,#Email.form-control,div.row{
-  background: url(../src/Recursos/tono.bmp) no-repeat center;
+
+#Nameform-control,div.row{
+ background: url(../src/assets/tono.jpg) no-repeat center;
 }
 .nav-link,.form-wrapper{
-  font-style: italic;
-  
+  font-style: Arial Black;
+  color: #fffb06;
+
 }
 
-.wrapper {
-  padding-top: 30px;
-  background: url(../src/Recursos/fondo.jpg) no-repeat center;
-  
-}
-.container{
-  background: url(../src/Recursos/tono.bmp) no-repeat center;
+container{
+  background: url(../src/assets/tono.jpg) no-repeat center;
 }
 body h3,body{
   margin-bottom: 25px;
@@ -21,7 +18,7 @@ body h3,body{
 
 
 .navbar-brand a {
-  color: #a83b3b;
+  color: #d8ac4f;
 }
 
 
@@ -56,4 +53,10 @@ body h3,body{
 }
 .navbar-dark{
   color: #ec0c0c;
+}
+.d-block{
+  height: auto;
+  max-width :400px;
+  justify-content: center;
+  border-color: #e7eb29;
 }
