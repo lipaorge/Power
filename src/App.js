@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
@@ -14,13 +13,18 @@ import CreatePowerbank from "./components/create-powerbank.component";
 import EditPowerbank from "./components/edit-powerbank.component";
 import PowerbankList from "./components/powerbank-list.component";
 import Index from "./components/index.component";
+import BootstrapCarousel from "./components/BootstrapCarousel";
 
 function App() {
   return (
+    
     <div className="App">
+      
+       
       <Router>
+      
         <header className="App-header">
-          <Navbar id="navbar" bg="info" expand="lg" variant="dark">
+          <Navbar id="navbar" bg="dark" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand>
                 <Link to={"/"}  className="nav-link">
@@ -30,13 +34,13 @@ function App() {
 
               <Nav className="justify-content-end">
                 <Nav>
-                  <Link to={"/create-student"} className="nav-link">
+                  <Link to={"/create-user"} className="nav-link">
                     Crear Usuario
                   </Link>
                 </Nav>
 
                 <Nav>
-                  <Link to={"/student-list"} className="nav-link">
+                  <Link to={"/user-list"} className="nav-link">
                     Listar Usuarios
                   </Link>
                 </Nav>
@@ -57,7 +61,6 @@ function App() {
                   />
                   <Route
                     exact
-<<<<<<< HEAD
                     path="/create-user"
                     component={(props) => <CreatePowerbank {...props} />}
                   />
@@ -70,30 +73,26 @@ function App() {
                   <Route
                     exact
                     path="/user-list"
-                    component={(props) => <powerBankList {...props} />}
-=======
-                    path="/create-student"
-                    component={(props) => <CreateStudent {...props} />}
-                  />
-                  <Route
-                    exact
-                    path="/edit-student/:id"
-                    component={(props) => <EditStudent {...props} />}
-                  />
-                  <Route
-                    exact
-                    path="/student-list"
-                    component={(props) => <StudentList {...props} />}
->>>>>>> b68bd79d75777a77680916b020eca269178381bc
+                    component={(props) => <PowerbankList {...props} />}
                   />
                 </Switch>
               </div>
             </Col>
           </Row>
         </Container>
+        
       </Router>
+      <div>
+      <Container>
+      <BootstrapCarousel /> 
+      </Container>
+      </div>
+     
+      
     </div>
+    
   );
 }
 
 export default App;
+
