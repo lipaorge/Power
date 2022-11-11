@@ -73,7 +73,7 @@ function App() {
                   <Route
                     exact
                     path="/powerbank-list"
-                    component={(props) => <powerBankList {...props} />}
+                    component={(props) => <PowerbankList {...props} />}
                   />
                 </Switch>
               </div>
@@ -82,11 +82,11 @@ function App() {
         </Container>
         
       </Router>
-      <div>
+      {/* <div>
       <Container>
       <BootstrapCarousel /> 
       </Container>
-      </div>
+      </div> */}
      
       
     </div>
