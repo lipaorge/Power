@@ -1,10 +1,11 @@
 
-#Nameform-control,div.row{
- background: url(../src/assets/tono.jpg) no-repeat center;
+/*#Nameform-control,div.row{
+ background: url(../src/assets/tono.jpg) ;
 }
-.nav-link,.form-wrapper{
+*/
+.nav-link{
   font-style: Arial Black;
-  color: #fffb06;
+  color: #ff8b06;
 
 }
 
@@ -12,10 +13,14 @@
   margin-top: 300px;
   background: url(../src/assets/tono.jpg) no-repeat center;
 } */
-body h3,body{
-  margin-bottom: 25px;
- 
+.App{
+background: url(../src/assets/tono.jpg) ;
+width: 800px;
+max-width:100%;
+height: auto;
+object-fit: cover;
 }
+
 
 
 .navbar-brand a {
@@ -23,12 +28,13 @@ body h3,body{
 }
 
 
-.form-wrapper,
+.form-wrapper{
+
+}
 
 .table-wrapper {
-  max-width: 500px;
-  margin: 0 auto;
-  color:#4c945e9c
+  max-width: 100%;
+  color:#06fa3be0
 }
 
 .table-wrapper {
@@ -56,8 +62,12 @@ body h3,body{
   color: #ec0c0c;
 }
 .d-block{
-  height: auto;
-  max-width :400px;
-  justify-content: center;
-  border-color: #e7eb29;
+  opacity: .6;
+width: 100%;
+height:auto;
+
+max-width: 900px;
+justify-content: center;
+border: 1px solid #388d3c;
 }
+

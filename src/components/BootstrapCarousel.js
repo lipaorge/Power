@@ -7,7 +7,7 @@ export default function BootstrapCarousel(){
       <Carousel.Item>
         <img
           className="d-block w-100 mx-auto"
-          src="https://revistabyte.es/wp-content/uploads/2020/02/baterias-externas-powerbank.jpg"
+          src="https://www.pascogifts.com/en/media/cache/resolve/small/files/dunne-powerbank-4-000-mah-bedrukken-59ce46f901ff7.jpg"
           alt="PowerBank"
         />
         <Carousel.Caption>
@@ -29,7 +29,7 @@ export default function BootstrapCarousel(){
       <Carousel.Item>
         <img
           className="d-block w-100 mx-auto"
-          src="https://www.recode.id/wp-content/uploads/2021/03/powerbank-1.jpg"
+          src="https://www.reclameartikel.eu/WebRoot/StoreNL/Shops/62320907/5694/EB5B/89C1/C6D5/570E/C0A8/2BBC/7B8D/P324.955__B_1_m.jpg"
           alt="PowerBank"
         />
         <Carousel.Caption>
@@ -40,7 +40,7 @@ export default function BootstrapCarousel(){
       <Carousel.Item>
         <img
           className="d-block w-100 mx-auto"
-          src="https://monaliza.com.my/blog/wp-content/uploads/sites/4/2021/08/cara-penjagaan-bateri-powerbank-756x500.jpg"
+          src="https://www.reclameartikel.eu/WebRoot/StoreNL/Shops/62320907/5694/EB5D/68FC/8190/CC9D/C0A8/2BBC/7BA6/P324.957__B_1_ml.jpg"
           alt="PowerBank"
         />
         <Carousel.Caption>
@@ -51,7 +51,7 @@ export default function BootstrapCarousel(){
       <Carousel.Item>
         <img
           className="d-block w-100 mx-auto"
-          src="https://s3.belkin.com/resources/img/overview/bpb002/belkin-bpb002-boostcharge-usb-c-powerbank-20k-charing-for2-v01-r02-820x461-us.jpg"
+          src="https://www.reclameartikel.eu/WebRoot/StoreNL/Shops/62320907/5694/EB5D/68FC/8190/CC9D/C0A8/2BBC/7BA6/P324.957__B_2_ml.jpg"
           alt="PowerBank"
         />
         <Carousel.Caption>
@@ -62,7 +62,7 @@ export default function BootstrapCarousel(){
       <Carousel.Item>
         <img
           className="d-block w-100 mx-auto"
-          src="https://comparativas.lavanguardia.com/wp-content/uploads/2022/06/comparativa-Power-bank-4.jpg"
+          src="https://simplicitygifts.com.sg/wp-content/uploads/2015/05/Lithium-Series-4.jpg"
           alt="PowerBank"
         />
         <Carousel.Caption>
