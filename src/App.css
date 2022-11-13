@@ -4,7 +4,7 @@
 }
 .nav-link,.form-wrapper{
   font-style: Arial Black;
-  color: #fffb06;
+  color: #fffb00;
 
 }
 
@@ -12,7 +12,7 @@ container{
   background: url(../src/assets/tono.jpg) no-repeat center;
 }
 body h3,body{
-  margin-bottom: 25px;
+  margin-bottom: 10px;
  
 }
 

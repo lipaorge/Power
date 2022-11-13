@@ -28,7 +28,7 @@ function App() {
             <Container>
               <Navbar.Brand>
                 <Link to={"/"}  className="nav-link">
-                  POWER BANK
+                  POWER UP!
                 </Link>
               </Navbar.Brand>
 
@@ -51,7 +51,7 @@ function App() {
 
         <Container>
           <Row>
-            <Col md={12}>
+            <Col md={6}>
               <div className="wrapper">
                 <Switch>
                   <Route
