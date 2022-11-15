@@ -1,0 +1,63 @@
+
+#Nameform-control,div.row{
+ background: url(../src/assets/tono.jpg) no-repeat center;
+}
+.nav-link,.form-wrapper{
+  font-style: Arial Black;
+  color: #fffb06;
+
+}
+
+/* .container{
+  margin-top: 300px;
+  background: url(../src/assets/tono.jpg) no-repeat center;
+} */
+body h3,body{
+  margin-bottom: 25px;
+ 
+}
+
+
+.navbar-brand a {
+  color: #d8ac4f;
+}
+
+
+.form-wrapper,
+
+.table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  color:#4c945e9c
+}
+
+.table-wrapper {
+  max-width: 700px;
+}
+
+.edit-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: rgb(3, 3, 3);
+  background-color: #e9ec0c;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.edit-link:hover {
+  text-decoration: none;
+  color: #e7eb29;
+}
+.navbar-dark{
+  color: #ec0c0c;
+}
+.d-block{
+  height: auto;
+  max-width :400px;
+  justify-content: center;
+  border-color: #e7eb29;
+}
