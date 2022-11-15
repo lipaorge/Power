@@ -79,13 +79,7 @@ function App() {
         </Container>
         
       </Router>
-      {/* <div>
-      <Container>
-      <BootstrapCarousel /> 
-      </Container>
-      </div> */}
-     
-      
+          
     </div>
     
   );

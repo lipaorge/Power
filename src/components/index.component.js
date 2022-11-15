@@ -1,19 +1,10 @@
-import React, { Component, Container, BootstrapCarousel } from "react";
+import React, { Component } from "react";
 import {Carousel} from "react-bootstrap"
 
 export default class Index extends Component {
     render() {
         return(
-        //     <h1  style={{marginTop:200}}>
-        //     Página de Inicio
-            
-        // </h1>
         
-        // <div >
-        // <Container>
-        // <BootstrapCarousel /> 
-        // </Container>
-        // </div>
         <Carousel style={{marginTop:100}}>
         <Carousel.Item>
           <img
@@ -22,8 +13,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-            <h3></h3>
-            <p></p>
+          
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -33,8 +23,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-            <h3></h3>
-            <p></p>
+            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -44,8 +33,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-            <h3></h3>
-            <p></p>
+           
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -55,8 +43,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-            <h3></h3>
-            <p></p>
+          
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -66,8 +53,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-            <h3></h3>
-            <p></p>
+           
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -77,7 +63,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-            <h3></h3>
+           
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -88,7 +74,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-            <h3></h3>
+            
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -99,7 +85,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-            <h3></h3>
+            
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -110,7 +96,7 @@ export default class Index extends Component {
            alt="PowerBank"
          />
          <Carousel.Caption>
-           <h3></h3>
+          
            <p></p>
          </Carousel.Caption>
        </Carousel.Item>  
