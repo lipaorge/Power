@@ -1,4 +1,4 @@
-const Cliente = require("../models/clientes.model");
+const Cliente = require("../backend/models/clientes.model");
 
 let response = {
     msg: "",
