@@ -18,7 +18,7 @@ export default class Index extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 mx-auto"
-            src="https://revistabyte.es/wp-content/uploads/2020/02/baterias-externas-powerbank.jpg"
+            src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_Dark-Blue.jpg"
             alt="PowerBank"
           />
           <Carousel.Caption>
@@ -29,7 +29,7 @@ export default class Index extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 mx-auto"
-            src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2022/01/powebank-2593743.jpg?itok=qH1eWqkY"
+            src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_Green.jpg"
             alt="PowerBank"
           />
           <Carousel.Caption>
@@ -40,7 +40,7 @@ export default class Index extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 mx-auto"
-            src="https://www.recode.id/wp-content/uploads/2021/03/powerbank-1.jpg"
+            src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_Light-Blue.jpg"
             alt="PowerBank"
           />
           <Carousel.Caption>
@@ -51,7 +51,7 @@ export default class Index extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 mx-auto"
-            src="https://monaliza.com.my/blog/wp-content/uploads/sites/4/2021/08/cara-penjagaan-bateri-powerbank-756x500.jpg"
+            src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_Orange.jpg"
             alt="PowerBank"
           />
           <Carousel.Caption>
@@ -62,7 +62,7 @@ export default class Index extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 mx-auto"
-            src="https://s3.belkin.com/resources/img/overview/bpb002/belkin-bpb002-boostcharge-usb-c-powerbank-20k-charing-for2-v01-r02-820x461-us.jpg"
+            src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_Purple.jpg"
             alt="PowerBank"
           />
           <Carousel.Caption>
@@ -73,7 +73,7 @@ export default class Index extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 mx-auto"
-            src="https://comparativas.lavanguardia.com/wp-content/uploads/2022/06/comparativa-Power-bank-4.jpg"
+            src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_Red.jpg"
             alt="PowerBank"
           />
           <Carousel.Caption>
@@ -84,7 +84,7 @@ export default class Index extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 mx-auto"
-            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bateria-portatil-1634021730.jpg?crop=1.00xw:0.887xh;0,0.113xh&resize=1200:*"
+            src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_Silver.jpg"
             alt="PowerBank"
           />
           <Carousel.Caption>
@@ -95,7 +95,7 @@ export default class Index extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 mx-auto"
-            src="https://comparativas.lavanguardia.com/wp-content/uploads/2022/06/comparativa-Power-bank-5.jpg"
+            src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_White.jpg"
             alt="PowerBank"
           />
           <Carousel.Caption>
@@ -103,10 +103,19 @@ export default class Index extends Component {
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
-      
+        <Carousel.Item>
+           <img
+           className="d-block w-100 mx-auto"
+           src="http://www.valore.sg/Valore/wp-content/uploads/800x800-Valore-bookmark-powerbank_Yellow.jpg"
+           alt="PowerBank"
+         />
+         <Carousel.Caption>
+           <h3></h3>
+           <p></p>
+         </Carousel.Caption>
+       </Carousel.Item>  
       </Carousel>
-
-        
-          )
-    }
+    
+  );
+  }  
 }

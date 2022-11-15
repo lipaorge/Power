@@ -13,14 +13,11 @@ import CreatePowerbank from "./components/create-powerbank.component";
 import EditPowerbank from "./components/edit-powerbank.component";
 import PowerbankList from "./components/powerbank-list.component";
 import Index from "./components/index.component";
-//import BootstrapCarousel from "./components/BootstrapCarousel";
-
 function App() {
   return (
     
     <div className="App">
-      
-       
+     
       <Router>
       
         <header className="App-header">
@@ -95,4 +92,3 @@ function App() {
 }
 
 export default App;
-
