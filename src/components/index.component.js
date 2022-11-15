@@ -43,7 +43,7 @@ export default class Index extends Component {
             alt="PowerBank"
           />
           <Carousel.Caption>
-          
+          <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
