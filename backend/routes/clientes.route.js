@@ -18,7 +18,7 @@ router.route("/create-clientes").post((req, res, next) => {
   });
 });
 
-// LEER Estudiante
+// LEER Cliente
 router.route("/").get((req, res, next) => {
     ClientesSchema.find((error, data) => {
     if (error) {
@@ -29,8 +29,8 @@ router.route("/").get((req, res, next) => {
   });
 });
 
-// Obtener un Estudiante
-router.route("/edit-clientes:id").get((req, res, next) => {
+// Obtener un Cliente
+router.route("/edit-clientes/:id").get((req, res, next) => {
     ClientesSchema.findById(req.params.id, (error, data) => {
     if (error) {
       return next(error);
