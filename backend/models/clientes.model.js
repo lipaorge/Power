@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const ClientesSchema = new Schema({
-    identificacion: { type: Number, required: true, max: 20 },
-    nombre: { type: String, required: true, max: 60 },
+    identificacion: { type: String, required: true, max: 100 },
+    nombre: { type: String, required: true, max: 100 },
     apellido: { type: String, required: true, max: 100 },
     telefono: { type: String, required: true, max: 15 },
     mail: { type: String, required: false, max: 70 },
@@ -15,4 +15,4 @@ const ClientesSchema = new Schema({
 }
 );
 
-module.exports = mongoose.model("clientes.model", ClientesSchema);
+module.exports = mongoose.model("clientes", ClientesSchema);

@@ -49,15 +49,32 @@ body h3,body{
   font-size: 0.875rem;
   line-height: normal;
   border-radius: 0.2rem;
-  color: rgb(3, 3, 3);
-  background-color: #e9ec0c;
-  border-color: #28a745;
+  color: #fff;
+  background-color: #5028a7;
+  border-color: #5028a7;
   margin-right: 10px;
   position: relative;
   top: 1px;
 }
 
 .edit-link:hover {
+  text-decoration: none;
+  color: #e7eb29;
+}
+
+.delet-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #a72878;
+  border-color: #5028a7;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+.delet-link:hover {
   text-decoration: none;
   color: #e7eb29;
 }
