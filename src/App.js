@@ -32,13 +32,13 @@ function App() {
               <Nav className="justify-content-end">
                 <Nav>
                   <Link to={"/create-powerbank"} className="nav-link">
-                    Crear Usuario
+                    Crear Cliente
                   </Link>
                 </Nav>
 
                 <Nav>
                   <Link to={"/powerbank-list"} className="nav-link">
-                    Listar Usuarios
+                    Listar CLientes
                   </Link>
                 </Nav>
               </Nav>
@@ -63,7 +63,7 @@ function App() {
                   />
                   <Route
                     exact
-                    path="/edit-user/:id"
+                    path="/edit-clientes/:id"
                     // eslint-disable-next-line react/jsx-no-undef
                     component={(props) => <EditPowerbank {...props} />}
                   />
